@@ -18,7 +18,18 @@ function initMap() {
   var end = "Aazhimala Siva Temple";
   var method = 'DRIVING';
   drawRoute(start, end, method,animate = false) // pass animate = false to animate dotted line
+
+  var start = "Trivandrum International Airport";
+  var end = "Neyyanttinkara";
+  var method = 'DRIVING';
+  drawRoute(start, end, method,animate = false, color = '#4caf50') // pass animate = false to animate dotted line
+
 }
+
+
+
+
+
 
 function drawRoute(start, end, method, animate = true,color = '#e53935') {
   var directionsService = new google.maps.DirectionsService();
@@ -34,12 +45,6 @@ function drawRoute(start, end, method, animate = true,color = '#e53935') {
         path: google.maps.SymbolPath.CIRCLE,
         fillOpacity: 1,
         scale: 3
-      };
-
-      var newSymb = {
-        path: google.maps.SymbolPath.CIRCLE,
-        scale: 8,
-        strokeColor: '#e53935'
       };
 
       var routePath = new google.maps.Polyline({
