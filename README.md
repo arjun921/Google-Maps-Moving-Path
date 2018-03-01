@@ -10,5 +10,5 @@ Here's what the following code can do.
 
 Here's what it looks like in action.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/arjun921/Google-Maps-Moving-Path/raw/master/ezgif.com-video-to-gif.gif)
 
