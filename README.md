@@ -10,5 +10,5 @@ Here's what the following code can do.
 
 Here's what it looks like in action.
 
-[ezgif.com-video-to-gif.gif](https://postimg.org/image/4dmkbczx1/)
+![alt text](http://url/to/img.png)
 
