@@ -42,7 +42,7 @@ function drawRoute(start, end, method, animate = true,color = '#e53935') {
   directionsService.route(request, function(response, status) {
     if (status == google.maps.DirectionsStatus.OK) {
       var lineSymbol = {
-        path: google.maps.SymbolPath.CIRCLE,
+        path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
         fillOpacity: 1,
         scale: 3
       };
